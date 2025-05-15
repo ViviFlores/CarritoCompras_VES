@@ -99,7 +99,7 @@ export const LoginScreen = ({ users }: Props) => {
                         hasIcon={true}
                         actionIcon={() => setHiddenPassword(!hiddenPassword)} />
                 </View>
-                <ButtonComponent textButton='Iniciar Git 4' actionButton={handleSignIn} />
+                <ButtonComponent textButton='Iniciar Git 2-22' actionButton={handleSignIn} />
                 <TouchableOpacity
                     onPress={() => navigation.dispatch(CommonActions.navigate({ name: 'Register' }))}>
                     <Text style={styles.textRedirection}>
